@@ -1,3 +1,4 @@
+//서버가 잘 돌아가는지 보는 곳 
 import express from "express"
 var indexRouter = express.Router();
 
