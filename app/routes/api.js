@@ -8,7 +8,7 @@ const corsOptions = {
 const app = express()
 app.use(cors());
 app.get('/now', cors(corsOptions),(_req,res) => {
-    res.json({"now : ":new Date().toLocaleString()})
+    res.json({"now":new Date().toLocaleString()})
 })
 
 export default app
